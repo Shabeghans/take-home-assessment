@@ -19,10 +19,11 @@ USER_ID = "user_1"
 
 def sql_tool_function(query: str):
     """This function takes in an SQL query and runs it against the database"""
+    #YOUR CODE HERE
     pass
 
 # 1. Data Agent
-data_agent = Agent(
+data_agent = Agent( #YOUR CODE HERE
     name="DataAgent",
     model=MODEL_NAME,
     description=f"",
@@ -32,7 +33,7 @@ data_agent = Agent(
 )
 
 # 2. Primary Agent
-primary_agent = Agent(
+primary_agent = Agent( #YOUR CODE HERE
     name="PrimaryAgent",
     model=MODEL_NAME,
     description="",
@@ -93,7 +94,7 @@ def run_query(query: str):
 # --- Main Execution ---
 if __name__ == "__main__":
 
-    #test query
+    #test query. run this to check if the setup is working
     run_query("what is the capital of France?")
 
     #final evaluation queries
