@@ -39,7 +39,7 @@ primary_agent = Agent(
     instruction=f"""
 
 """,
-    #tools=[AgentTool(agent=data_agent)],
+    tools=[AgentTool(agent=data_agent)],
     output_key="primary_agent_final_response"
 )
 
